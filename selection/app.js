@@ -14,9 +14,10 @@
 // }
 
 const links = document.querySelectorAll("a");
+const h1 = document.querySelector("h1");
 
 for (let link of links) {
   link.style.color = "rgb(128, 0, 128)";
-  link.style.textDecorationColor = "magenta";
+  link.style.textDecorationColor = "blue";
   link.style.textDecorationStyle = "solid";
 }
