@@ -1,0 +1,23 @@
+.fixed-bg {
+  background-color: #fff; /* Atau warna tetap yang Anda inginkan */
+}
+
+/* Tambahkan styling tambahan untuk card, button, dan container jika diperlukan */
+button.fixed-bg {
+  color: #000; /* Pastikan teks button tetap terlihat */
+  border: 1px solid #ccc; /* Tambahkan border jika diperlukan */
+}
+
+.card.fixed-bg {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px; /* Sesuaikan dengan kebutuhan */
+}
+
+.card.fixed-bg img {
+  width: 100%;
+}
+
+.card.fixed-bg .container.fixed-bg {
+  padding: 16px;
+}
