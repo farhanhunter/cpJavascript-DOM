@@ -14,3 +14,14 @@ const generateRandomColor = () => {
 
   return `rgb(${red}, ${green}, ${blue})`;
 };
+
+const cards = document.getElementsByClassName("container");
+
+for (let card of cards) {
+  card.addEventListener("click", colorize);
+}
+
+function colorize() {
+  this.style.backgroundColor = generateRandomColor();
+  this.style.color = generateRandomColor();
+}
